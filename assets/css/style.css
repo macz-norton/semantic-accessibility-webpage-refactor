@@ -1,13 +1,16 @@
+/*  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*  */
 body {
     background-color: #d9dcd6;
 }
 
+/*  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,21 +18,25 @@ header {
     color: #ffffff;
 }
 
+/*  */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*  */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*  */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*  */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,32 +45,38 @@ nav {
     font-size: 20px;
 }
 
+/*  */
 p,
 small,
 figcaption {
     font-size: 16px;
 }
 
+/*  */
 ul {
     list-style-type: none;
 }
 
+/*  */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*  */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*  */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -75,17 +88,20 @@ aside {
     background-color: #2589bd;
 }
 
+/*  */
 figure {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*  */
 figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*  */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -95,10 +111,12 @@ section {
     color: #ffffff;
 }
 
+/*  */
 section img {
     max-height: 200px;
 }
 
+/*  */
 footer {
     padding: 30px;
     clear: both;
@@ -106,25 +124,30 @@ footer {
     text-align: center;
 }
 
+/*  */
 footer h2 {
     font-size: 20px;
 }
 
+/*  */
 .seo {
     color: #d9dcd6;
 }
 
+/*  */
 .hero {
     height: 800px;
     width: 100vw;
     margin-bottom: 25px;
 }
 
+/*  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*  */
 .float-right {
     float: right;
     margin-left: 25px;
