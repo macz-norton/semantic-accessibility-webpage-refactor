@@ -3,7 +3,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/macz-norton/semantic-accessibility-webpage-refactor)
 
 ## Description
-This respository highlights the changes to an existing marketing agency webpage that improve the webpage's accessibility and search engine optimization.
+This respository highlights the changes to an existing marketing agency webpage that improve the webpage's semantic HTML, accessibility, and search engine optimization (SEO).
 
 ### User Story
 > * **AS A** marketing agency
@@ -33,22 +33,21 @@ This respository highlights the changes to an existing marketing agency webpage 
 This project requires no installations. 
 
 ## Usage
-![Horiseon Social Services, Inc. webpage](url)
+![ Horiseon Social Services, Inc. webpage](https://user-images.githubusercontent.com/71162422/95649950-6670b780-0a95-11eb-850e-e02dd5689437.png)
 
-The updated, deployed website that uses semantic HTML and follows accessibility standards: 
+The updated, deployed website uses semantic HTML and follows accessibility standards: https://macz-norton.github.io/semantic-accessibility-webpage-refactor/
 
 ## Tests
 
 To test the accessibility of the site:
-1. Keyboard accessibility
+1. **Keyboard accessibility**
 * You can use the tab / enter keys to use the navigation anchor links in the header. 
 * You can use the up and down arrows to move up or down the webpage.
-2. Visuals
-* The background colors for elements with text meet contrast standard for those with impaired vision.
+2. **Visuals**
+* The background colors for elements with text meet contrast standard for those with impaired vision. Try this out: [ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd?hl=en)
 * The webpage is compatible with a screenreader. Try this out: [Chrome Vox](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
 * Images include alt text that are compatible with a screenreader.
-3. Hearing
-This website does not include any audio elements (i.e. video, sounds).
+3. **Hearing:** This website does not include any audio elements (i.e. video, sounds).
 
 ## Credits
 
