@@ -1,16 +1,13 @@
-/* TODO */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* TODO */
 body {
     background-color: #d9dcd6;
 }
 
-/* TODO */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,25 +15,21 @@ header {
     color: #ffffff;
 }
 
-/* TODO */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* TODO */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* TODO */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* TODO */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,38 +38,35 @@ nav {
     font-size: 20px;
 }
 
-/* TODO */
+/* Set font-size on multiple elements: p, small, and figcaption */
 p,
 small,
 figcaption {
     font-size: 16px;
 }
 
-/* TODO */
 ul {
     list-style-type: none;
 }
 
-/* TODO */
 li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* TODO */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* TODO */
+/* Sets sizing of the main section of content */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* TODO */
+/* Sets sizing and styling of the aside section of content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -88,20 +78,17 @@ aside {
     background-color: #2589bd;
 }
 
-/* TODO */
 figure {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* TODO */
 figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* TODO */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,12 +98,10 @@ section {
     color: #ffffff;
 }
 
-/* TODO */
 section img {
     max-height: 200px;
 }
 
-/* TODO */
 footer {
     padding: 30px;
     clear: both;
@@ -124,30 +109,29 @@ footer {
     text-align: center;
 }
 
-/* TODO */
 footer h2 {
     font-size: 20px;
 }
 
-/* TODO */
+/* Highlights the seo text within the Horiseon name */
 .seo {
     color: #d9dcd6;
 }
 
-/* TODO */
+/* Applies sizing to the main image on the website */
 .hero {
     height: 800px;
     width: 100vw;
     margin-bottom: 25px;
 }
 
-/* TODO */
+/* Class ensures images float left of text*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* TODO */
+/* Class ensures image float right of text */
 .float-right {
     float: right;
     margin-left: 25px;
