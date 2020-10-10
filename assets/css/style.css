@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #fff;
 }
 
 header {
@@ -40,9 +40,13 @@ nav {
 
 /* Set font-size on multiple elements: p, small, and figcaption */
 p,
-small,
+small {
+    font-size: 16px;
+}
+
 figcaption {
     font-size: 16px;
+    text-align: center;
 }
 
 ul {
@@ -75,18 +79,18 @@ aside {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2a607c;
 }
 
 figure {
-    margin-bottom: 32px;
+    margin-bottom: 30px;
     color: #ffffff;
 }
 
 figure img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 134px;
 }
 
 section {
@@ -94,7 +98,7 @@ section {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2a607c;
     color: #ffffff;
 }
 
