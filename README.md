@@ -1,12 +1,37 @@
 # Webpage Refactor: Semantic HTML & Accessibility
 
-![Last Commit](https://img.shields.io/github/last-commit/macz-norton/semantic-accessibility-webpage-refactor)
+![Last Commit](https://img.shields.io/github/last-commit/macz-norton/webpage-refactor)
 
 ## Description
 
 This respository highlights the changes to an existing marketing agency webpage that improve the webpage's semantic HTML, accessibility, and search engine optimization (SEO).
 
-I followed this series of high-level steps to refactor the code:
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Credits](#credits)
+* [License](#license)
+
+## Installation
+
+No installation required.
+
+## Usage
+
+The webpage's source code uses semantic HTML elements, follow a logical structure independent of styling and positioning. The webpage's images include accessible alt attributes, the heading attributes fall in sequential order, and the title element includes a concise, descriptive title.
+* Link to the deployed webpage: https://macz-norton.github.io/semantic-accessibility-webpage-refactor/
+* This image shows the web application's appearance and functionality:
+![ Horiseon Social Services, Inc. webpage](https://user-images.githubusercontent.com/71162422/95649950-6670b780-0a95-11eb-850e-e02dd5689437.png)
+
+I changed the following in order to improve the website's accessibility and search engine optimization: 
 
 ### Index.html
 1. Replaced non-descriptive elements with semantic HTML5 elements, including `nav`, `header`, `main`, `section`, `footer`, etc.
@@ -26,22 +51,12 @@ I followed this series of high-level steps to refactor the code:
 1. As mentioned, added `alt` elements to each image (in the `index.html` file).
 2. Compressed image sizes for improved image load time.
 
-## Installation
-
-This project requires no installations. 
-
-## Usage
-
-The updated, deployed website uses semantic HTML and follows accessibility standards: https://macz-norton.github.io/semantic-accessibility-webpage-refactor/
-
-![ Horiseon Social Services, Inc. webpage](https://user-images.githubusercontent.com/71162422/95649950-6670b780-0a95-11eb-850e-e02dd5689437.png)
-
 ## Tests
 
 To test the accessibility of the site:
 1. **Keyboard accessibility**
-    * You can use the tab / enter keys to use the navigation anchor links in the header. 
-    * You can use the up and down arrows to move up or down the webpage.
+    * Use the tab / enter keys to use the navigation anchor links in the header. 
+    * YUse the up and down arrows to move up or down the webpage.
 2. **Visuals**
     * The background colors for elements with text meet contrast standards for those with impaired vision. Try this out: [ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd?hl=en)
     * The webpage is compatible with a screenreader. Try this out: [Chrome Vox](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
@@ -60,4 +75,4 @@ Guidance on using Git and GitHub:
 
 ## License
 
-Licensed under the [MIT](LICENSE.txt) license.
+None
