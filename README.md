@@ -4,7 +4,7 @@
 
 ## Description
 
-This respository highlights the changes to an existing marketing agency webpage that improve the webpage's semantic HTML, accessibility, and search engine optimization (SEO).
+Refactored an existing marketing agency webpage to improve accessibility and search engine optimization (SEO).
 
 ```
 AS A marketing agency
@@ -33,7 +33,7 @@ The webpage's source code uses semantic HTML elements, follow a logical structur
 
 I changed the following in order to improve the website's accessibility and search engine optimization: 
 
-### Index.html
+### index.html
 1. Replaced non-descriptive elements with semantic HTML5 elements, including `nav`, `header`, `main`, `section`, `footer`, etc.
 2. Updated webpage `title` to be more descriptive.
 3. Added `alt` elements to describe images.
@@ -42,7 +42,7 @@ I changed the following in order to improve the website's accessibility and sear
 6. Updated the headers to be in sequential order (`h1`, `h2`, `h3`).
 5. Added additional spacing to the file for improved code readability.
 
-### Style.css
+### style.css
 1. Consolidated repetitive class styling.
 2. Updated colors and sizing for consistency and clarity.
 3. Added comments to describe more complex styling / classes.
